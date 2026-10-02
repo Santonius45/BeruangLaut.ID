@@ -13,11 +13,16 @@ export const metadata: Metadata = {
     "Otomasi",
     "IoT",
     "Computer Vision",
-    "Rekayasa Perangkat Lunak"
-  ]
+    "Rekayasa Perangkat Lunak",
+  ],
+  icons: {
+    icon: "/114.jpg",
+  },
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="id">
       <body>

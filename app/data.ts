@@ -117,14 +117,16 @@ export const projects = [
 ] as const;
 
 export const clients = [
-  { number: "01", mark: "SB", logo: "/images/clients/1.jpg", name: "PT. Satnusa Batam", project: "Pengembangan Web Dashboard (R&D)" },
-  { number: "02", mark: "PLN", logo: "/images/clients/2.jpg", name: "PT. PLN Bright Batam", project: "Dukungan laporan magang industri" },
-  { number: "03", mark: "SU", logo: "/images/clients/3.png", name: "Sampoerna University", project: "Rangkaian Dasar, Arduino & Robotika" },
-  { number: "04", mark: "UT", logo: "/images/clients/4.png", name: "Universitas Telkom Indonesia", project: "Kontrol Nada Analog & Digital" },
-  { number: "05", mark: "UI", logo: "/images/clients/5.png", name: "Universitas Indonesia", project: "Pemrograman Java" },
-  { number: "06", mark: "UID", logo: "/images/clients/6.jpg", name: "Universitas Pertahanan Indonesia", project: "FootStep Generator" },
-  { number: "07", mark: "ITB", logo: "/images/clients/7.png", name: "Institut Teknologi Bandung", project: "Python & YOLO v3" },
-  { number: "08", mark: "ITEBA", logo: "/images/clients/8.png", name: "ITEBA", project: "Sistem Absensi Pengenalan Wajah" },
-  { number: "09", mark: "ITECS", logo: "/images/clients/9.png", name: "ITECS Jakarta", project: "C#, MySQL, Java & Raspberry Pi" },
-  { number: "10", mark: "CC", logo: "/images/clients/10.jpg", name: "Community College USA", project: "Xamarin iOS & Jaringan Cisco" },
+  { number: "01", mark: "SB", logo: "/images/clients/1.jpg", name: "PT. Satnusa Batam"},
+  { number: "02", mark: "PLN", logo: "/images/clients/2.jpg", name: "PT. PLN Bright Batam" },
+  { number: "03", mark: "VMU", logo: "/images/clients/112.jpg", name: "PT. Virya Mitra" },
+  { number: "04", mark: "NG", logo: "/images/clients/113.png", name: "PT. Nuvasa Group" },
+  { number: "05", mark: "MOI", logo: "/images/clients/111.jpg", name: "PT Momentum Otomasi Indonesia" },
+  { number: "06", mark: "UT", logo: "/images/clients/4.png", name: "Universitas Telkom Indonesia" },
+  { number: "07", mark: "UI", logo: "/images/clients/5.png", name: "Universitas Indonesia" },
+  { number: "08", mark: "UID", logo: "/images/clients/6.jpg", name: "Universitas Pertahanan Indonesia" },
+  { number: "09", mark: "ITB", logo: "/images/clients/7.png", name: "Institut Teknologi Bandung" },
+  { number: "10", mark: "ITEBA", logo: "/images/clients/8.png", name: "ITEBA" },
+  
+  
 ] as const;

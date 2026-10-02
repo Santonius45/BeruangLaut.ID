@@ -5,7 +5,7 @@ type Project = {
   category: string;
   title: string;
   summary: string;
-  tags: readonly string[];
+  tags: string[];
   outcome: string;
   slug: string;
 };

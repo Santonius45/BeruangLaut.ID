@@ -6,7 +6,6 @@ import Link from "next/link";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const links = [
-    ["Proyek", "#work"],
     ["Klien", "#clients"],
     ["Keahlian", "#capabilities"],
     ["Tentang Kami", "#about"],
