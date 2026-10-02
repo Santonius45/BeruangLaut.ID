@@ -80,7 +80,6 @@ export default function Home() {
 
                   <h3>{client.name}</h3>
 
-                  <p>{client.project}</p>
                 </div>
 
                 <span className="client-arrow">↗</span>
