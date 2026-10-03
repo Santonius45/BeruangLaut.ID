@@ -156,18 +156,18 @@ export default function Home() {
               {/* AI / IoT / INFINITY */}
               <div className="stats">
                 <div className="stat">
-                  <strong>AI</strong>
+                  <strong>A.I</strong>
                   <span>KECERDASAN</span>
                 </div>
 
                 <div className="stat">
-                  <strong>IoT</strong>
+                  <strong>I.o.T</strong>
                   <span>SISTEM TERHUBUNG</span>
                 </div>
 
                 <div className="stat">
-                  <strong>∞</strong>
-                  <span>RUANG REKAYASA</span>
+                  <strong>R.P.L</strong>
+                  <span>REKAYASA PERANGKAT</span>
                 </div>
               </div>
 
@@ -246,7 +246,7 @@ export default function Home() {
               </div>
 
               <div className="philosophy-card">
-                <h3>HARI INI → MASA DEPAN</h3>
+                <h3>HARI INI MENUJU MASA DEPAN</h3>
 
                 <p>
                   CV BeruangLaut.ID menjadi pembatas antara Masa sekarang dan Masa depan

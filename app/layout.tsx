@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "Rekayasa Perangkat Lunak",
   ],
   icons: {
-    icon: "/114.jpg",
+    icon: "/118.jpg",
   },
 };
 

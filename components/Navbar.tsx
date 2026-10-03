@@ -16,7 +16,7 @@ export default function Navbar() {
     <header className="nav-wrap">
       <nav className="nav">
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
-          <span className="brand-mark">BL</span>
+          <img src="/118.jpg" alt="BeruangLaut.ID" className="brand-mark" />
           <span>
             <strong>BERUANGLAUT</strong>
             <small>.ID</small>
