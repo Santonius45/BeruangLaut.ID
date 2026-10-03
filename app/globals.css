@@ -1017,7 +1017,7 @@ footer{
    ================================= */
 
 .about-contact{
-  margin-top:280px;
+  margin-top:200px;
   padding-top:25px;
   border-top:1px solid var(--line);
 }
@@ -1032,7 +1032,7 @@ footer{
 
 .about-contact .contact-name{
   margin:0;
-  font-size:clamp(18px,2vw,30px);
+  font-size:clamp(15px,2vw,25px);
   line-height:1.05;
   letter-spacing:-.05em;
   color:var(--text);
@@ -1093,4 +1093,92 @@ footer{
     gap:12px;
   }
 
+}
+
+/* =========================================
+   CONTACT PROFILE PHOTO
+   ========================================= */
+
+.contact-profile {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.contact-photo {
+  width: 150px;
+  height: 150px;
+  flex: 0 0 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: var(--panel2);
+}
+
+.contact-photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.contact-details {
+  min-width: 0;
+}
+
+.contact-details .contact-name {
+  margin: 0;
+}
+
+.contact-details .contact-role {
+  margin-top: 8px;
+}
+
+.contact-details .contact-info {
+  margin-top: 18px;
+}
+
+
+/* =========================================
+   CONTACT — MOBILE
+   ========================================= */
+
+@media (max-width: 800px) {
+  .contact-profile {
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .contact-photo {
+    width: 120px;
+    height: 120px;
+    flex: 0 0 120px;
+  }
+
+  .contact-details .contact-name {
+    font-size: 24px;
+  }
+}
+
+
+/* =========================================
+   CONTACT — SMALL MOBILE
+   ========================================= */
+
+@media (max-width: 520px) {
+  .contact-profile {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-photo {
+    width: 130px;
+    height: 130px;
+    flex: 0 0 130px;
+  }
+
+  .contact-details .contact-name {
+    font-size: 24px;
+  }
 }

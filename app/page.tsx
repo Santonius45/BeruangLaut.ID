@@ -16,8 +16,8 @@ export default function Home() {
             </div>
 
             <p className="hero-copy">
-              Artificial Intelligence, Robotika, Otomasi, IoT, Computer Vision, dan
-              Rekayasa Perangkat Lunak — mengubah tantangan teknis yang
+              Artificial Intelligence, Robotika, Otomasi, IoT, Computer Vision,
+              dan Rekayasa Perangkat Lunak — mengubah tantangan teknis yang
               kompleks menjadi sistem yang dapat digunakan.
             </p>
 
@@ -44,12 +44,12 @@ export default function Home() {
             ========================================= */}
         <div className="marquee">
           <div className="marquee-inner">
-            ARTIFICIAL INTELLIGENCE <b>×</b> ROBOTIKA <b>×</b> OTOMASI <b>×</b> IoT{" "}
-            <b>×</b> COMPUTER VISION <b>×</b> REKAYASA PERANGKAT LUNAK{" "}
-            <b>×</b>
-            ARTIFICIAL INTELLIGENCE <b>×</b> ROBOTIKA <b>×</b> OTOMASI <b>×</b> IoT{" "}
-            <b>×</b> COMPUTER VISION <b>×</b> REKAYASA PERANGKAT LUNAK{" "}
-            <b>×</b>
+            ARTIFICIAL INTELLIGENCE <b>×</b> ROBOTIKA <b>×</b> OTOMASI{" "}
+            <b>×</b> IoT <b>×</b> COMPUTER VISION <b>×</b> REKAYASA PERANGKAT
+            LUNAK <b>×</b>
+            ARTIFICIAL INTELLIGENCE <b>×</b> ROBOTIKA <b>×</b> OTOMASI{" "}
+            <b>×</b> IoT <b>×</b> COMPUTER VISION <b>×</b> REKAYASA PERANGKAT
+            LUNAK <b>×</b>
           </div>
         </div>
 
@@ -58,9 +58,7 @@ export default function Home() {
             ========================================= */}
         <section className="section clients-section" id="clients">
           <div className="section-head section-head-clean">
-            <p className="section-intro">
-              Our Client
-            </p>
+            <p className="section-intro">Our Client</p>
           </div>
 
           <div className="client-grid">
@@ -79,7 +77,6 @@ export default function Home() {
                   </span>
 
                   <h3>{client.name}</h3>
-
                 </div>
 
                 <span className="client-arrow">↗</span>
@@ -87,9 +84,7 @@ export default function Home() {
             ))}
           </div>
 
-          <p className="client-note">
-        
-          </p>
+          <p className="client-note"></p>
         </section>
 
         {/* =========================================
@@ -97,9 +92,7 @@ export default function Home() {
             ========================================= */}
         <section className="section" id="capabilities">
           <div className="section-head section-head-clean">
-            <p className="section-intro">
-              Our Capabilities
-            </p>
+            <p className="section-intro">Our Capabilities</p>
           </div>
 
           <div className="cap-grid">
@@ -186,24 +179,37 @@ export default function Home() {
                   CONTACT
                 </div>
 
-                <h2 className="contact-name">
-                  Samuel Hasiholan Omega, S. Tr. T.
-                </h2>
+                <div className="contact-profile">
+                  {/* FOTO */}
+                  <div className="contact-photo">
+                    <img
+                      src="/images/117.jpeg"
+                      alt="Samuel Hasiholan Omega"
+                    />
+                  </div>
 
-                <div className="contact-role">
-                  Founder &amp; C.E.O — CV BeruangLaut.ID
-                </div>
+                  {/* INFORMASI CONTACT */}
+                  <div className="contact-details">
+                    <h2 className="contact-name">
+                      Samuel Hasiholan Omega, S. Tr. T.
+                    </h2>
 
-                <div className="contact-info">
-                  <a href="tel:+628217600172">
-                    <span>☎</span>
-                    <span>(+62) 8217600172</span>
-                  </a>
+                    <div className="contact-role">
+                      Founder &amp; C.E.O — CV BeruangLaut.ID
+                    </div>
 
-                  <a href="mailto:spurba563@gmail.com">
-                    <span>✉</span>
-                    <span>spurba563@gmail.com</span>
-                  </a>
+                    <div className="contact-info">
+                      <a href="tel:+628217600172">
+                        <span>☎</span>
+                        <span>(+62) 8217600172</span>
+                      </a>
+
+                      <a href="mailto:spurba563@gmail.com">
+                        <span>✉</span>
+                        <span>spurba563@gmail.com</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -216,8 +222,7 @@ export default function Home() {
                 <h3>BER-UANG LAUT</h3>
 
                 <p>
-                  Lautan sumber daya — sebuah gambaran tentang banyaknya
-                  kemungkinan, ide, dan kemampuan yang dapat dikembangkan.
+                  CV Kita Mempunyai Uang sebanyak Lautan yang tidak Bisa ditelusuri
                 </p>
               </div>
 
@@ -225,8 +230,7 @@ export default function Home() {
                 <h3>BER-RUANG LAUT</h3>
 
                 <p>
-                  Lautan ruang — menciptakan ruang bagi sistem, eksperimen,
-                  dan teknologi untuk berkembang melampaui batas yang umum.
+                  CV Kita mempunyai Tempat sebanyak Lautan
                 </p>
               </div>
 
@@ -234,8 +238,10 @@ export default function Home() {
                 <h3>BERUANG LAUT / TARDIGRADE</h3>
 
                 <p>
-                  Organisme kecil dan tangguh yang menjadi simbol untuk
-                  skala, ketahanan, serta tantangan terhadap batas.
+                  Mahluk terkecil di Dunia, jika ada yang lebih kecil dari Beruang Laut berarti masuk ke Dunia Kuantum. 
+                </p>
+                 <p>
+                  Jika ada yang lebih kecil atau lebih Cepat dari Beruang Laut berarti Bisa menembus Waktu
                 </p>
               </div>
 
@@ -243,8 +249,7 @@ export default function Home() {
                 <h3>HARI INI → MASA DEPAN</h3>
 
                 <p>
-                  CV BeruangLaut.ID berada di antara apa yang dapat dibangun
-                  hari ini dan apa yang dapat direkayasa untuk masa depan.
+                  CV BeruangLaut.ID menjadi pembatas antara Masa sekarang dan Masa depan
                 </p>
               </div>
             </div>
