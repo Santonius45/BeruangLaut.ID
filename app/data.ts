@@ -117,11 +117,11 @@ export const projects = [
 ] as const;
 
 export const clients = [
-  { number: "01", mark: "SB", logo: "/images/clients/1.jpg", name: "PT. Satnusa Batam"},
-  { number: "02", mark: "PLN", logo: "/images/clients/2.jpg", name: "PT. PLN Bright Batam" },
-  { number: "03", mark: "VMU", logo: "/images/clients/112.jpg", name: "PT. Virya Mitra" },
-  { number: "04", mark: "NG", logo: "/images/clients/113.png", name: "PT. Nuvasa Group" },
-  { number: "05", mark: "MOI", logo: "/images/clients/111.jpg", name: "PT Momentum Otomasi Indonesia" },
+  { number: "01", mark: "NG", logo: "/images/clients/113.png", name: "PT. Nuvasa Group" },
+  { number: "02", mark: "SB", logo: "/images/clients/1.jpg", name: "PT. Satnusa Batam"},
+  { number: "03", mark: "PLN", logo: "/images/clients/2.jpg", name: "PT. PLN Bright Batam" },
+  { number: "04", mark: "VMU", logo: "/images/clients/112.jpg", name: "PT. Virya Mitra" },
+  { number: "05", mark: "MOI", logo: "/images/clients/111.jpg", name: "PT. Momentum Otomasi Indonesia" },
   { number: "06", mark: "UT", logo: "/images/clients/4.png", name: "Universitas Telkom Indonesia" },
   { number: "07", mark: "UI", logo: "/images/clients/5.png", name: "Universitas Indonesia" },
   { number: "08", mark: "UID", logo: "/images/clients/6.jpg", name: "Universitas Pertahanan Indonesia" },

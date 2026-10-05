@@ -222,7 +222,7 @@ export default function Home() {
                 <h3>BER-UANG LAUT</h3>
 
                 <p>
-                  CV Kita Mempunyai Uang sebanyak Lautan yang tidak Bisa ditelusuri
+                  CV Kami Mempunyai Uang sebanyak Lautan yang tidak Bisa ditelusuri
                 </p>
               </div>
 
@@ -230,7 +230,7 @@ export default function Home() {
                 <h3>BER-RUANG LAUT</h3>
 
                 <p>
-                  CV Kita mempunyai Tempat sebanyak Lautan
+                  CV Kami mempunyai Tempat sebanyak Lautan
                 </p>
               </div>
 

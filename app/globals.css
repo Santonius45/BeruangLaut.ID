@@ -70,19 +70,16 @@ a{
 }
 
 .brand-mark{
-  width:34px;
-  height:34px;
-  border:1px solid rgba(169,255,207,.5);
-  display:grid;
-  place-items:center;
-  font:500 11px "DM Mono";
-  color:var(--accent);
-  transform:rotate(0deg)
+  width:46px;
+  height:46px;
+  border:0;
+  display:block;
+  object-fit:contain;
+  object-position:center;
+  transform:none;
+  flex-shrink:0;
 }
 
-.brand-mark::first-line{
-  transform:rotate(-45deg)
-}
 
 .brand strong{
   font-size:13px;
@@ -128,7 +125,7 @@ a{
   display:flex;
   align-items:center;
   overflow:hidden;
-  background:#050608 url("/images/beruanglaut-hero.jpeg") center center / cover no-repeat
+  background:#050608 url("/images/beruanglaut-hero.jpeg") center 25% / 95% auto no-repeat;
 }
 
 .hero:after{
