@@ -54,6 +54,49 @@ export default function Home() {
         </div>
 
         {/* =========================================
+            BIOGRAFI & FILOSOFI
+            ========================================= */}
+        <section className="section biography-section" id="biography">
+          <div className="section-head section-head-clean">
+            <p className="section-intro">Biografi &amp; Filosofi</p>
+          </div>
+
+          <div className="biography-grid">
+            {/* BIOGRAFI */}
+            <article className="biography-card">
+              <span className="biography-number">002 / BIOGRAFI</span>
+
+              <h2>CV BeruangLaut.ID</h2>
+
+              <p>
+                <strong>CV BeruangLaut.ID</strong> didirikan oleh 3 mahasiswa
+                Politeknik Negeri Batam pada Oktober 2020. Berawal dari
+                membantu proyek Tugas Akhir dan Skripsi, BeruangLaut.ID
+                berkembang menjadi perusahaan yang menyelesaikan berbagai
+                permasalahan industri melalui teknologi{" "}
+                <strong>Industry 4.0 hingga Industry 5.0</strong>.
+              </p>
+            </article>
+
+            {/* FILOSOFI */}
+            <article className="biography-card">
+              <span className="biography-number">003 / FILOSOFI</span>
+
+              <h2>Beruang Laut / Tardigrade</h2>
+
+              <p>
+                Nama <strong>BeruangLaut.ID</strong> terinspirasi dari{" "}
+                <strong>Tardigrade (Beruang Laut)</strong>, makhluk kecil yang
+                dikenal mampu bertahan dalam kondisi ekstrem. Filosofi ini
+                melambangkan <strong>kekuatan, ketahanan, kemampuan
+                beradaptasi, dan keberlanjutan</strong> dalam menghadapi
+                berbagai tantangan.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        {/* =========================================
             OUR CLIENT
             ========================================= */}
         <section className="section clients-section" id="clients">
@@ -73,7 +116,7 @@ export default function Home() {
 
                 <div className="client-info">
                   <span className="client-index">
-                    {client.number} / REFERENSI
+                    {client.number} / Patner
                   </span>
 
                   <h3>{client.name}</h3>
@@ -222,7 +265,8 @@ export default function Home() {
                 <h3>BER-UANG LAUT</h3>
 
                 <p>
-                  CV Kami Mempunyai Uang sebanyak Lautan yang tidak Bisa ditelusuri
+                  CV Kami Mempunyai Uang sebanyak Lautan yang tidak Bisa
+                  ditelusuri
                 </p>
               </div>
 
@@ -238,10 +282,13 @@ export default function Home() {
                 <h3>BERUANG LAUT / TARDIGRADE</h3>
 
                 <p>
-                  Mahluk terkecil di Dunia, jika ada yang lebih kecil dari Beruang Laut berarti masuk ke Dunia Kuantum. 
+                  Mahluk terkecil di Dunia, jika ada yang lebih kecil dari
+                  Beruang Laut berarti masuk ke Dunia Kuantum.
                 </p>
-                 <p>
-                  Jika ada yang lebih kecil atau lebih Cepat dari Beruang Laut berarti Bisa menembus Waktu
+
+                <p>
+                  Jika ada yang lebih kecil atau lebih Cepat dari Beruang Laut
+                  berarti Bisa menembus Waktu
                 </p>
               </div>
 
@@ -249,7 +296,8 @@ export default function Home() {
                 <h3>HARI INI MENUJU MASA DEPAN</h3>
 
                 <p>
-                  CV BeruangLaut.ID menjadi pembatas antara Masa sekarang dan Masa depan
+                  CV BeruangLaut.ID menjadi pembatas antara Masa sekarang dan
+                  Masa depan
                 </p>
               </div>
             </div>

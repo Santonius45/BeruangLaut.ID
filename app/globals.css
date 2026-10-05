@@ -652,6 +652,258 @@ footer{
   font:500 11px "DM Mono"
 }
 
+
+
+/* =========================================
+   BIOGRAPHY & PHILOSOPHY — MODERN
+   ========================================= */
+
+.biography-section{
+  position:relative;
+  padding-top:110px;
+  padding-bottom:110px;
+}
+
+.biography-section .section-head-clean{
+  margin-bottom:55px;
+}
+
+.biography-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+
+/* =========================================
+   CARD
+   ========================================= */
+
+.biography-card{
+  position:relative;
+  min-height:330px;
+  padding:34px;
+  border:1px solid rgba(255,255,255,.09);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,.035),
+      rgba(255,255,255,.008) 55%,
+      rgba(169,255,207,.018)
+    );
+  overflow:hidden;
+  isolation:isolate;
+  transition:
+    transform .45s cubic-bezier(.22,1,.36,1),
+    border-color .45s ease,
+    background .45s ease,
+    box-shadow .45s ease;
+}
+
+/* Large background number */
+
+.biography-card::after{
+  content:"";
+  position:absolute;
+  right:-12px;
+  bottom:-45px;
+  z-index:-1;
+  font-family:Manrope,Arial,sans-serif;
+  font-size:190px;
+  font-weight:800;
+  line-height:1;
+  letter-spacing:-.09em;
+  color:rgba(255,255,255,.025);
+  pointer-events:none;
+  transition:
+    transform .6s cubic-bezier(.22,1,.36,1),
+    color .45s ease;
+}
+
+.biography-card:first-child::after{
+  content:"02";
+}
+
+.biography-card:last-child::after{
+  content:"03";
+}
+
+/* Green ambient glow */
+
+.biography-card::before{
+  content:"";
+  position:absolute;
+  width:260px;
+  height:260px;
+  right:-150px;
+  bottom:-170px;
+  border-radius:50%;
+  background:radial-gradient(
+    circle,
+    rgba(169,255,207,.16) 0%,
+    rgba(169,255,207,.06) 30%,
+    transparent 70%
+  );
+  filter:blur(8px);
+  pointer-events:none;
+  transition:
+    transform .6s ease,
+    opacity .45s ease;
+}
+
+/* =========================================
+   HOVER
+   ========================================= */
+
+.biography-card:hover{
+  transform:translateY(-7px);
+  border-color:rgba(169,255,207,.25);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,.045),
+      rgba(255,255,255,.012) 55%,
+      rgba(169,255,207,.025)
+    );
+  box-shadow:
+    0 22px 60px rgba(0,0,0,.28),
+    inset 0 1px 0 rgba(255,255,255,.04);
+}
+
+.biography-card:hover::after{
+  transform:translate(-8px,-8px);
+  color:rgba(169,255,207,.055);
+}
+
+.biography-card:hover::before{
+  transform:scale(1.25);
+}
+
+/* =========================================
+   TOP LABEL
+   ========================================= */
+
+.biography-number{
+  position:relative;
+  z-index:2;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:65px;
+  color:#68727d;
+  font:400 9px "DM Mono",monospace;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+}
+
+.biography-number::before{
+  content:"";
+  width:28px;
+  height:1px;
+  background:var(--accent);
+  opacity:.7;
+}
+
+/* =========================================
+   TITLE
+   ========================================= */
+
+.biography-card h2{
+  position:relative;
+  z-index:2;
+  max-width:650px;
+  margin:0 0 20px;
+  color:var(--text);
+  font-family:Manrope,Arial,sans-serif;
+  font-size:clamp(30px,3.2vw,46px);
+  font-weight:800;
+  line-height:.98;
+  letter-spacing:-.055em;
+}
+
+/* =========================================
+   DESCRIPTION
+   ========================================= */
+
+.biography-card p{
+  position:relative;
+  z-index:2;
+  max-width:650px;
+  margin:0;
+  color:#929ba5;
+  font-size:14px;
+  line-height:1.85;
+  letter-spacing:-.01em;
+}
+
+.biography-card strong{
+  color:#e9eef2;
+  font-weight:650;
+}
+
+/* =========================================
+   SMALL CARD NUMBER
+   ========================================= */
+
+.biography-card:first-child .biography-number::after{
+  content:"  ";
+  color:#3f4851;
+}
+
+.biography-card:last-child .biography-number::after{
+  content:" ";
+  color:#3f4851;
+}
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media(max-width:800px){
+
+  .biography-section{
+    padding-top:80px;
+    padding-bottom:80px;
+  }
+
+  .biography-section .section-head-clean{
+    margin-bottom:35px;
+  }
+
+  .biography-grid{
+    grid-template-columns:1fr;
+    gap:14px;
+  }
+
+  .biography-card{
+    min-height:310px;
+    padding:25px;
+  }
+
+  .biography-number{
+    margin-bottom:55px;
+  }
+
+  .biography-card h2{
+    font-size:31px;
+    line-height:1;
+  }
+
+  .biography-card p{
+    font-size:13px;
+    line-height:1.8;
+  }
+
+  .biography-card::after{
+    font-size:140px;
+    right:-5px;
+    bottom:-25px;
+  }
+
+  .biography-card:hover{
+    transform:translateY(-3px);
+  }
+}
+
 @media(max-width:800px){
 
   .nav{
@@ -785,6 +1037,18 @@ footer{
     flex-direction:column
   }
 }
+
+  /* =========================================
+     BIOGRAPHY & PHILOSOPHY — MOBILE
+     ========================================= */
+
+  .biography-grid{grid-template-columns:1fr;}
+  .biography-section{padding-top:80px;padding-bottom:80px;}
+  .biography-card{min-height:auto;padding:24px;}
+  .biography-number{margin-bottom:38px;}
+  .biography-card h2{font-size:30px;}
+  .biography-card p{font-size:13px;line-height:1.75;}
+
 
 /* ================================
    CLIENT
